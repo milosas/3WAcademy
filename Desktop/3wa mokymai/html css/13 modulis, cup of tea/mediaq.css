@@ -1,0 +1,51 @@
+/* MEDIA QUERIES */
+@media (min-width: 680px) {
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+  header ul li {
+    margin:0 10px;
+  }
+
+  .imgflex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .grassflex {
+    margin-left: -25px;
+    margin-right: -25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .grass {
+    margin: 25px 25px;
+  }
+
+  .grassimg img {
+    max-width: 100%;
+  }
+  .footerflex {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer {
+  }
+  .tea {
+    position: relative;
+    z-index: -1;
+  }
+  .greenbg{
+  position: absolute;
+  top: 60px;
+  left: 25px;
+  z-index: 1;
+  opacity: 0.8;
+  font-size: 100%;
+  padding: 20px 20px;
+  }
+
+  .greenbg p {
+    padding: 0;
+  }
+}
